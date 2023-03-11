@@ -97,25 +97,4 @@ void loop() {
     }
   }
   
-  // put your main code here, to run repeatedly:
-/*if(mySerial.available()>0){
-mySerial.read(&receive, 1);
-if(receive == 'A'){
-  clr_ngo = true;
-}
-if(receive == 'B'){
-  clr_ngo = false;
-}
-if(clr_ngo == true){
-  buf[num] = char(mySerial.read(&mq, 1));
-  //buf[num] = char(mySerial.read());
-  Serial.println(buf[num]);
-  num++;
-  if(num > 3){
-   mqtt = (int32_t) buf[0] << 24 || buf[1] << 18 || buf[2] << 8 || buf[3];
-    num = 0;
-    //Serial.println(mqtt);
-    }
-    //Serial.println(mqtt);
-    }
-  }*/
+ 
